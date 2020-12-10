@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -82,10 +83,10 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -106,3 +107,4 @@ body {
 .blog {font-style: oblique;
     
 }
+
